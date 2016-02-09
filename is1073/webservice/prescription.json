@@ -1,0 +1,18 @@
+{"prescriptionID" : "0001","prescriptionDate" : "04/11/2013","patientID" : "14343",
+	"medicalProviderID" : "45465",
+	"medicationList" : [
+		{
+			"medicationID" : "12345",
+			"medicationName" : "Tylenol",
+			"usageDirections" : "Take 2 for headache",
+			"maximumDosage" : 1000
+		},
+		{
+			"medicationID" : "12346",
+			"medicationName" : "Thyrogen",
+			"usageDirections" : "Take 1 at least an hour before a meal",
+			"maximumDosage" : 175
+		}
+	],
+	"instruction" : "Do not take with food.  Best taken in the morning before breakfast."
+}

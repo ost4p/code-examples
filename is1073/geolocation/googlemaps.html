@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+
+    <script src="http://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+    <script type="text/javascript">
+		function initialize() {
+		    var mapProp = {
+		    	center:new google.maps.LatLng(40.4440242,-79.9537939),
+				zoom:15,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+		    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <title>Google Maps Example</title>
+</head>
+
+<body>
+    <div id="googleMap" style="width:1000px;height:700px;"></div>
+</body>
+</html>

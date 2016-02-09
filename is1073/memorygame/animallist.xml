@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+
+<animal>
+	<image>images/cartoons/cat.jpg</image>
+	<label>Cat</label>	
+</animal>
+<animal>
+	<image>images/cartoons/dog.jpg</image>
+	<label>Dog</label>	
+</animal>
+<animal>
+	<image>images/cartoons/pig.jpg"</image>
+	<label>Pig</label>	
+</animal>
+<animal>
+	<image>images/cartoons/bear.jpg"</image>
+	<label>Bear</label>	
+</animal>
+<animal>
+	<image>images/cartoons/cow.jpg"</image>
+	<label>Cow</label>	
+</animal>
+<animal>
+	<image>images/cartoons/bird.jpg"</image>
+	<label>Bird</label>	
+</animal>
+<animal>
+	<image>images/cartoons/lion.jpg"</image>
+	<label>Lion</label>	
+</animal>
+<animal>
+	<image>images/cartoons/butterfly.jpg"</image>
+	<label>Butterfly</label>	
+</animal>
+<animal>
+	<image>images/cartoons/crocodile.jpg"</image>
+	<label>Crocodile</label>	
+</animal>
+<animal>
+	<image>images/cartoons/donkey.jpg"</image>
+	<label>Donkey</label>	
+</animal>
+<animal>
+	<image>images/cartoons/elephant.jpg"</image>
+	<label>Elephant</label>	
+</animal>
+<animal>
+	<image>images/cartoons/fish.jpg"</image>
+	<label>Fish</label>	
+</animal>
+<animal>
+	<image>images/cartoons/giraffe.jpg"</image>
+	<label>Crocodile</label>	
+</animal>
+<animal>
+	<image>images/cartoons/horse.jpg"</image>
+	<label>Horse</label>	
+</animal>
+<animal>
+	<image>images/cartoons/mouse.jpg"</image>
+	<label>Mouse</label>	
+</animal>
+<animal>
+	<image>images/cartoons/octopus.jpg"</image>
+	<label>Octopus</label>	
+</animal>
+<animal>
+	<image>images/cartoons/rhino.jpg"</image>
+	<label>Rhino</label>	
+</animal>
+<animal>
+	<image>images/cartoons/tiger.jpg"</image>
+	<label>Tiger</label>	
+</animal><animal>
+	<image>images/cartoons/zebra.jpg"</image>
+	<label>Zebra</label>	
+</animal>

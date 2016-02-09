@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>jQuery Example</title>
+    <style>
+        .dataDisplayClass{
+            padding: 10px;
+            background-color: yellow;
+            width: 150px;
+        }
+    </style>
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+            //getWeatherData();
+            $("#btnSearch").click(function(){
+                var city = $("#txtSearch").val();
+                getWeatherData(city);
+            });
+        });
+        
+        
+        function getWeatherData(city){
+            var serviceUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=44db6a862fba0b067b1930da0d769e98";
+            
+            
+            $.get( serviceUrl, function( data ) {
+                console.log(data);
+                $("#temperature").css({
+                        "font-weight" : "bold",
+                        "background-color" : "red"
+                });
+
+                
+                $("#temperature").html("Temperature: " + data.main.temp);
+                $("#wind").html("Wind: " + data.wind.speed);
+                $("#weather").html("Weather: " + data.weather[0].description);
+            });
+        }
+        
+        
+        
+    </script>
+</head>
+<body>
+    <div id="search">
+        <input type="text" id="txtSearch" value="" />
+        <input type="button" id="btnSearch" value="Search Weather" />
+    </div>
+    <div class="dataDisplayClass" id="temperature"></div>
+    <div class="dataDisplayClass" id="wind"></div>
+    <div class="dataDisplayClass" id="weather"></div>
+    <img src="images/sunny-icon.png" />
+</body>
+</html>

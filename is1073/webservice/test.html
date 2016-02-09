@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script>
+        var a = function(){
+            // var d = document.getElementById("div1");
+            //console.log(d.innerHTML);    
+            var dList = document.getElementsByTagName("div");
+            console.log(dList);
+        }
+        
+        function buttonEvent(){
+            var d = document.getElementById("div1");
+            d.innerHTML = "I just clicked a button!";
+        }    
+    </script>
+</head>
+<body>
+    <div id="div1">Something interesting</div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    
+    <input type="button" id="btnTest" value="Click Me" onclick="buttonEvent();" />
+    
+    <script>
+        a();
+    </script>
+</body>
+</html>

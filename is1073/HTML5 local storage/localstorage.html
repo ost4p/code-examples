@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+    <script type="text/javascript">
+		window.onload = function(){
+			// Store data in local storage
+			localStorage.setItem("lastname", "Smith");			// Retrieve data from local storage
+			var lastName = localStorage.getItem("lastname");
+			console.log("Retrieved from local storage: " + lastName);
+			
+			// Store data in session storage
+			sessionStorage.setItem("firstname", "John");
+			var firstName = sessionStorage.getItem("firstname");
+			console.log(firstName);		 
+		}
+    </script>
+
+    <title>Local Storage Example</title>
+</head>
+
+<body>
+    
+</body>
+</html>
